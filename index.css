@@ -1,0 +1,185 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 55px;
+}
+
+body {
+    overflow-x: hidden;
+    background: lightblue;
+}
+
+.navbar {
+    font-family: "DM Serif Text", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.hero {
+    background-image: url('./background.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+#title1 {
+    font-family: "DM Serif Text", serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 84px;
+    color: black;
+}
+
+#title2 {
+    font-family: "Gwendolyn", cursive;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 75px;
+    color: black;
+}
+
+.description {
+    font-family: "DM Serif Text", serif;
+    font-weight: 300;
+    line-height: 30px;
+    color: black;
+    align-items: center;
+    margin: 30px auto;
+    max-width: 90%;
+    text-align: center;
+}
+
+.shopbtn {
+    display: inline-block;
+    margin: 30px auto;
+    padding: 10px 20px;
+}
+
+.featured-items {
+    background-color: #fff;
+    padding: 2rem 0;
+}
+
+.featured-items .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pagetitle {
+    font-family: "Gwendolyn", cursive;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.featured-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.carousel,
+.choose {
+    flex: 1;
+    min-width: 300px;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.choose {
+    text-align: justify;
+    font-family: "DM Serif Text", serif;
+}
+
+.aboutustxt {
+   font-family: "DM Serif Text", serif;
+   text-align: justify;
+   margin-left: 90px;
+   margin-right: 90px;
+   margin-bottom: 40px;
+   padding: 3rem;
+
+}
+
+#setsail{
+   text-align: center;
+   margin-top: 40px;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-size: auto;
+    color: black;
+}
+
+
+
+/*Mobile View*/
+@media screen and (max-width: 767px) {
+    .hero {
+        padding: 2rem 0;
+    }
+
+    #title1 {
+        font-size: 40px;
+        line-height: 30px;
+    }
+
+    #title2 {
+        font-size: 40px;
+        line-height: 30px;
+    }
+
+    #landing {
+        width: 100vw;
+    }
+
+    #title {
+        font-size: 20px;
+        line-height: 10px;
+    }
+
+    #subtitle {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .shopbtn {
+    display: inline-block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    }
+
+    .card-body {
+        flex-basis: 100%;
+    }
+
+    .aboutustxt{
+      margin: 20px;
+    }
+
+    .contactme {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    #map {
+        display: block;
+        width: 100%;
+    }
+
+    .footer {
+        margin-top: 10px;
+    }
+}
